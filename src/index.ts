@@ -4,7 +4,7 @@ import { SPOTIFY_TOKEN_URL } from "./utils/constants";
 import Client from "./utils/client";
 import { encodeBase64, generateRandomString } from "./utils/strings";
 import UsersAPI from "./endpoints/Users";
-import { Objects as obj, Response as res } from "./types/spotify";
+import { Objects as obj, Res as res } from "./types/spotify";
 
 type CreateAuthorizationUrlOptions = {
   state?: string;

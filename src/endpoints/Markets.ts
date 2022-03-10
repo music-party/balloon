@@ -1,8 +1,4 @@
-import type {
-  Requests as req,
-  Response as res,
-  Endpoints as ep,
-} from "../types/spotify";
+import type { Req as req, Res as res, Endpoints as ep } from "../types/spotify";
 import Client from "../utils/client";
 
 export default class Markets implements ep.Markets {

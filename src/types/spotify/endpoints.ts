@@ -1,4 +1,4 @@
-import { Requests as req, Response as res } from ".";
+import { Req as req, Res as res } from ".";
 import {
   RecommendationsSeeds,
   ReorderPlaylistItems,
